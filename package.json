@@ -15,8 +15,17 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.13.1",
+    "gatsby": "^3.14.0-drupal-next.15",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.0",
+    "prettier": "^2.4.1"
   }
 }
