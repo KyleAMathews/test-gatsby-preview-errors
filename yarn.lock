@@ -3099,10 +3099,10 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-create-gatsby@^2.0.0-next.1:
-  version "2.0.0-zz-next.8"
-  resolved "https://registry.yarnpkg.com/create-gatsby/-/create-gatsby-2.0.0-zz-next.8.tgz#e602cd982f9954e5fd59597ff077be6cf6f0d6da"
-  integrity sha512-0lBa0VLk5t4A8XYfbhN8XOpeeY5/LwMFw01xxz/PzG8AJUrUsXXbCEXlSRr6ekSSe0btNHCf230j6Vny2TQMrg==
+create-gatsby@2.0.0-next.1:
+  version "2.0.0-next.1"
+  resolved "https://registry.yarnpkg.com/create-gatsby/-/create-gatsby-2.0.0-next.1.tgz#a8d149b0640d136974d89543fc301225e4b4627e"
+  integrity sha512-L/nNK8WESlL2RWQnAfae4qtDZY4OSEXn6++Jz3/EiuN0wVT2VrlbjS2fXq6ynWmC7I5yqNfAKQvISlI6/o9N5g==
   dependencies:
     "@babel/runtime" "^7.15.4"
 
@@ -4521,10 +4521,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-cli@4.0.0-next.1:
-  version "4.0.0-next.1"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-4.0.0-next.1.tgz#0093bb0a884d96c50d0536087c73a10d0cddff74"
-  integrity sha512-wJym3FKAI7jxZGQh3xV0aqvNXD1fYD+g+iIJ1IAFil6tSRGKh8UMjOwmESlyXXmBZFb66F5mVyxJNC5VsPDl+Q==
+gatsby-cli@4.0.0-drupal-next.5+e99d6cf795:
+  version "4.0.0-drupal-next.5"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-4.0.0-drupal-next.5.tgz#c69a7a1cbd8b788391ce1bdc513dd3bb3a4c2e8f"
+  integrity sha512-BodVbkvRw7Zc8VebTHOQEPowdafRFkrXbm5ndxuomjjluHNnozxp27VY1F5MFHjF724MI0AJe24VOIyoijSWdg==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/runtime" "^7.15.4"
@@ -4535,14 +4535,14 @@ gatsby-cli@4.0.0-next.1:
     common-tags "^1.8.0"
     configstore "^5.0.1"
     convert-hrtime "^3.0.0"
-    create-gatsby "^2.0.0-next.1"
+    create-gatsby "2.0.0-next.1"
     envinfo "^7.7.3"
     execa "^5.1.1"
     fs-exists-cached "^1.0.0"
     fs-extra "^10.0.0"
-    gatsby-core-utils "^3.0.0-next.1"
-    gatsby-recipes "^1.0.0-next.1"
-    gatsby-telemetry "^3.0.0-next.1"
+    gatsby-core-utils "3.0.0-next.1"
+    gatsby-recipes "1.0.0-next.1"
+    gatsby-telemetry "3.0.0-next.1"
     hosted-git-info "^3.0.6"
     is-valid-path "^0.1.1"
     joi "^17.4.0"
@@ -4697,10 +4697,10 @@ gatsby-react-router-scroll@5.0.0-next.1:
   dependencies:
     "@babel/runtime" "^7.15.4"
 
-gatsby-recipes@^1.0.0-next.1:
-  version "1.0.0-zz-next.1"
-  resolved "https://registry.yarnpkg.com/gatsby-recipes/-/gatsby-recipes-1.0.0-zz-next.1.tgz#e99f65cfbdd09d9f3e8743c5c2d046f5a2c9cb6c"
-  integrity sha512-sis4QxvAq+mdfo4jwZ02W14ZcgLtQgp43/7/W1L6s+TnkQKmIwY+7LDjR8F9HIRDJqWsMkqJH35LH6HU7XJk4g==
+gatsby-recipes@1.0.0-next.1:
+  version "1.0.0-next.1"
+  resolved "https://registry.yarnpkg.com/gatsby-recipes/-/gatsby-recipes-1.0.0-next.1.tgz#9416994ecef1a50eb1490112aaf74d98be21fc52"
+  integrity sha512-11u/fmzweINd+o1YNU+xIsY/MER63ujdHLBxlQCD/6K0OQT2FuAH5dOo97VIjbvLmMWJvpQvWeSijEoEMPjABQ==
   dependencies:
     "@babel/core" "^7.15.5"
     "@babel/generator" "^7.15.4"
@@ -4726,8 +4726,8 @@ gatsby-recipes@^1.0.0-next.1:
     express "^4.17.1"
     express-graphql "^0.12.0"
     fs-extra "^10.0.0"
-    gatsby-core-utils "^3.0.0-zz-next.1"
-    gatsby-telemetry "^3.0.0-zz-next.1"
+    gatsby-core-utils "^3.0.0-next.1"
+    gatsby-telemetry "^3.0.0-next.1"
     glob "^7.1.6"
     graphql "^15.4.0"
     graphql-compose "~7.25.0"
@@ -4782,7 +4782,7 @@ gatsby-telemetry@3.0.0-next.1:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-telemetry@^3.0.0-next.1, gatsby-telemetry@^3.0.0-zz-next.1:
+gatsby-telemetry@^3.0.0-next.1:
   version "3.0.0-zz-next.1"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.0.0-zz-next.1.tgz#1bd3df6cfe1956147071fd14d637bd7091dd1b0e"
   integrity sha512-1572aW1WWBAEVapMD+w6x/+vn7CWhO1WO2I9d/95fiNTJBmfhd4M8QbHaLy/7DYTTIXuQoBb2Y6K+t6He5Leiw==
@@ -4810,10 +4810,10 @@ gatsby-worker@1.0.0-next.1:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@^4.0.0-drupal-next.3:
-  version "4.0.0-drupal-next.3"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.0.0-drupal-next.3.tgz#ec056a3ec94c1de8182fbccf2f1d61ba604269df"
-  integrity sha512-u44DKO7Qa98NquOLjtzteg1FiEbGOrnBJI5dLOK/HOqWXFVB9t2HxjkhCAzsffJLbFwGI48GlQztlB275MilQA==
+gatsby@^4.0.0-drupal-next.5:
+  version "4.0.0-drupal-next.5"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.0.0-drupal-next.5.tgz#ca9279aeca0b6f802444853085baed141211c584"
+  integrity sha512-rKwK9U0LU/BLAH4vJCoOEGySV7KCSJ6ZvktYu2d07xxfvf1pBKiTdMW3zfQ5kTzr51TKyKXm9OogfAJIOfJxeg==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -4882,7 +4882,7 @@ gatsby@^4.0.0-drupal-next.3:
     find-cache-dir "^3.3.1"
     fs-exists-cached "1.0.0"
     fs-extra "^10.0.0"
-    gatsby-cli "4.0.0-next.1"
+    gatsby-cli "4.0.0-drupal-next.5+e99d6cf795"
     gatsby-core-utils "3.0.0-next.1"
     gatsby-graphiql-explorer "2.0.0-next.1"
     gatsby-legacy-polyfills "2.0.0-next.0"

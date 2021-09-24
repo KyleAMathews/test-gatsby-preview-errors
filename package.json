@@ -15,7 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^4.0.0-drupal-next.3",
+    "gatsby": "^4.0.0-drupal-next.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
